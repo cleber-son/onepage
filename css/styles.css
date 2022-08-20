@@ -1,0 +1,264 @@
+/* CLEBERSON - RAIZEN */
+
+body{
+    margin: 0%;
+}
+
+
+/* SECTION 01 */
+#section-01{
+    display: flex;
+    height: 800px;
+}
+
+.sec01-div01{
+    width: 50%;
+    background-image: url(../imgs/2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sec01-div01:hover{
+    background-image: url(../imgs/9.jpeg);
+    background-repeat: no-repeat;
+}
+
+.sec01-div02{
+    width: 50%;
+}
+
+.sec01-div02 h1,b,p,.btn-energia{
+    margin-left: 4%;
+}
+
+
+.sec01-div02 h1{
+    color: #aeb8b8!important;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+.sec01-div02 b{
+    color: #737a7a!important;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+}
+
+.btn-energia{
+   border-radius: 50px;
+   background-color: #ffb356;
+   border-color: #ffb356;
+   color: white;
+   cursor: pointer;
+   padding: 2%  ;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   font-size: 15px;
+   font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+   font-weight: 900!important;
+}
+
+
+#sec01-div02-down{
+    display: flex;
+    padding-top: 4%;
+    height: 550px;
+}
+
+.sec01-div02-down-div01{
+    background-color: #becedb;
+    padding-top: 50px;
+    padding-right: 6%;
+    padding-bottom: 150px;
+    padding-left: 6%;
+}
+
+.sec01-div02-down-div02{
+    background-color: #ccd8e5;
+    padding-top: 50px;
+    padding-right: 6%;
+    padding-bottom: 150px;
+    padding-left: 6%;
+}
+
+#sec01-div02-down div button{
+    color: #455860!important;
+    border-width: 0px!important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    background-color: rgba(255,255,255,0.4)
+}
+
+.divisoria-purple{
+    background-image: url(../imgs/divisoria-purple.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 01 */
+
+
+/* SECTION 02 */
+#section-02{
+    display: flex;
+    text-align: center;
+    margin-top: -1%;
+}
+
+#section-02 div{
+ width: 25%;
+ margin-top: 1%;
+}
+
+#section-02 div img{
+    width: 26%;
+    height: 50%;
+}
+
+.sec01-div-escura{
+    background-color: #5f1f5f;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+}
+.sec01-div-clara{
+    background-color: #782878;
+    padding-top: 70px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+}
+
+.divisoria-white{
+    background-image: url(../imgs/divisoria-white.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 02 */
+
+
+/* SECTION 03 */
+#section-03{
+    margin-top: -2%;
+    background-image: url(../imgs/3.jpeg);
+    display: flex;
+    padding: 10%;
+    background-size: 100% 100%;
+    height: 400px;
+}
+
+#section-03 h2,span{
+   width: 50%;
+}
+
+.divisoria-bege{
+    background-image: url(../imgs/divisoria-bege.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 03 */
+
+
+/* SECTION 04 */
+#section-04{
+ display: flex;
+}
+
+#section-04 img{
+    width: 50%;
+    height: 200px;
+}
+
+.divisoria-orange{
+    background-image: url(../imgs/divisoria-orange.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 04 */
+
+
+
+/* SECTION 05 */
+
+#section-05{
+    background-image: url(../imgs/11.jpeg);
+    display: flex;
+    padding: 10%;
+    background-size: 100% 100%;
+}
+
+.divisoria-purple-claro{
+    background-image: url(../imgs/divisoria-purple-claro.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 05 */
+
+
+
+/* SECTION 06 */
+#section-06{
+    background-image: url(../imgs/10.jpeg);
+    display: flex;
+    padding: 10%;
+    background-size: 100% 100%;
+}
+.divisoria-blue{
+    background-image: url(../imgs/divisoria-blue.svg);
+    background-size: 100% 100px;
+    bottom: 0;
+    height: 100px;
+    z-index: 10;
+    transform: scale(-1,1);
+    margin-top: -7%;
+}
+/* END SECTION 06 */
+
+/* SECTION 07 */
+#section-07{
+    background-image: url(../imgs/12.jpeg);
+    display: flex;
+    padding: 10%;
+    background-size: 100% 100%;
+}
+/* END SECTION 07 */
+
+
+footer{
+    background-color: black;
+    border-top: 1px solid purple;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
