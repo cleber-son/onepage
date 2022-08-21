@@ -202,7 +202,7 @@ button{
     height: 100px;
     z-index: 10;
     transform: scale(-1,1);
-    margin-top: -6.5%;
+    margin-top: -5%;
     position: relative;
 }
 /* END SECTION 02 */
@@ -299,7 +299,7 @@ button{
     height: 98px;
     z-index: 10;
     transform: scale(-1,1);
-    margin-top: -6.5%;
+    margin-top: -5%;
     position: relative;
 }
 /* END SECTION 04 */
