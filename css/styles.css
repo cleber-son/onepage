@@ -2,6 +2,11 @@
 
 body{
     margin: 0%;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+button{
+    cursor: pointer;
 }
 
 
@@ -27,7 +32,7 @@ body{
     width: 50%;
 }
 
-.sec01-div02 h1,b,p,.btn-energia{
+.sec01-div02 h1,b,p,h2,.btn-energia{
     margin-left: 4%;
 }
 
@@ -38,6 +43,7 @@ body{
     font-weight: 900;
     letter-spacing: 4px;
     line-height: 1.2em;
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 .sec01-div02 b{
@@ -49,12 +55,20 @@ body{
     line-height: 1.8em;
 }
 
+.sec01-div02 h2{
+    color: #333;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.3em;
+    
+}
+
 .btn-energia{
    border-radius: 50px;
    background-color: #ffb356;
    border-color: #ffb356;
    color: white;
-   cursor: pointer;
    padding: 2%  ;
    letter-spacing: 2px;
    text-transform: uppercase;
@@ -63,30 +77,43 @@ body{
    font-weight: 900!important;
 }
 
-
 #sec01-div02-down{
     display: flex;
     padding-top: 4%;
     height: 550px;
 }
 
+#sec01-div02-down h3{
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    line-height: 1.5em!important;
+}
+
+#sec01-div02-down p{
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #6a6d6f;
+}
+
 .sec01-div02-down-div01{
     background-color: #becedb;
-    padding-top: 50px;
+    padding-top: 4%;
     padding-right: 6%;
     padding-bottom: 150px;
     padding-left: 6%;
+    width: 90%;
 }
 
 .sec01-div02-down-div02{
     background-color: #ccd8e5;
-    padding-top: 50px;
+    padding-top: 4%;
     padding-right: 6%;
     padding-bottom: 150px;
     padding-left: 6%;
 }
 
-#sec01-div02-down div button{
+#sec01-div02-down button{
     color: #455860!important;
     border-width: 0px!important;
     border-radius: 100px;
@@ -94,7 +121,9 @@ body{
     font-size: 17px;
     font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
     font-weight: 700!important;
-    background-color: rgba(255,255,255,0.4)
+    background-color: rgba(255,255,255,0.4);
+    padding: 3% 6%;
+
 }
 
 .divisoria-purple{
@@ -114,7 +143,32 @@ body{
     display: flex;
     text-align: center;
     margin-top: -1%;
+    color: white;
 }
+
+#section-02 h3{
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+#section-02 p{
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-bottom: 30px!important;
+}
+
+#section-02 button{
+    color: #44627c!important;
+    border-width: 0px!important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 700!important;
+    background-color: rgba(255,255,255,0.7);
+    padding: 3% 6%;
+}
+
 
 #section-02 div{
  width: 25%;
@@ -122,8 +176,8 @@ body{
 }
 
 #section-02 div img{
-    width: 26%;
-    height: 50%;
+    width: 100px;
+    height: 35%;
 }
 
 .sec01-div-escura{
@@ -148,15 +202,16 @@ body{
     height: 100px;
     z-index: 10;
     transform: scale(-1,1);
-    margin-top: -7%;
+    margin-top: -6.5%;
+    position: relative;
 }
 /* END SECTION 02 */
 
 
 /* SECTION 03 */
 #section-03{
-    margin-top: -2%;
-    background-image: url(../imgs/3.jpeg);
+    background-position: left -54% center;
+    background-image: linear-gradient(180deg,rgba(252,248,232,0.7) 0%,rgba(148,180,159,0.18) 100%),url(../imgs/3.jpeg)!important;
     display: flex;
     padding: 10%;
     background-size: 100% 100%;
@@ -164,8 +219,24 @@ body{
 }
 
 #section-03 h2,span{
-   width: 50%;
-}
+    width: 50%;
+ }
+ 
+ #section-03 h2{
+     font-size: 40px;
+     letter-spacing: 2px;
+     line-height: 1.5em;
+     color: black;
+     text-shadow: 1px 1px 5px #fbf8f8;
+  }
+ 
+  #section-03 span{
+     line-height: 1.8em;
+     font-size: 18px;
+     color: white;
+     margin-left: 9%;
+     text-shadow: 1px 1px 5px #000000;
+  }
 
 .divisoria-bege{
     background-image: url(../imgs/divisoria-bege.svg);
@@ -174,29 +245,62 @@ body{
     height: 100px;
     z-index: 10;
     transform: scale(-1,1);
-    margin-top: -7%;
+    margin-top: -6.5%;
+    position: relative;
 }
 /* END SECTION 03 */
 
 
 /* SECTION 04 */
 #section-04{
- display: flex;
+    display: flex;
+    color: white;
 }
 
-#section-04 img{
+.section-04-left{
+    background-image: url(../imgs/4.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 50%;
-    height: 200px;
+    height: 428px;
+    text-align: center;
+}
+
+.section-04-left h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+    margin-left: -4%;
+    margin-top: 6%;
+}
+
+.section-04-right{
+    background-image: url(../imgs/1.jpeg);  
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-top: -3%;
+}
+
+.section-04-right p{
+    line-height: 1.8em;
+    font-size: 18px;
+    text-shadow: 1px 1px 5px #f35ffd;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 13%;
 }
 
 .divisoria-orange{
     background-image: url(../imgs/divisoria-orange.svg);
     background-size: 100% 100px;
-    bottom: 0;
-    height: 100px;
+    bottom:  -1px;
+    height: 98px;
     z-index: 10;
     transform: scale(-1,1);
-    margin-top: -7%;
+    margin-top: -6.5%;
+    position: relative;
 }
 /* END SECTION 04 */
 
@@ -205,11 +309,29 @@ body{
 /* SECTION 05 */
 
 #section-05{
-    background-image: url(../imgs/11.jpeg);
+    background-image: linear-gradient(180deg,rgba(223,120,97,0.7) 0%,rgba(118,84,154,0.13) 100%),url(../imgs/11.jpeg);
     display: flex;
     padding: 10%;
     background-size: 100% 100%;
 }
+
+#section-05 h2,span{
+    width: 50%;
+    text-shadow: 1px 1px 5px #000000;
+    color: white;
+ }
+ 
+ #section-05 h2{
+     font-size: 40px;
+     letter-spacing: 2px;
+     line-height: 1.5em;
+  }
+ 
+  #section-05 span{
+     line-height: 1.8em;
+     font-size: 18px;
+     margin-left: 9%;
+  }
 
 .divisoria-purple-claro{
     background-image: url(../imgs/divisoria-purple-claro.svg);
@@ -226,11 +348,28 @@ body{
 
 /* SECTION 06 */
 #section-06{
-    background-image: url(../imgs/10.jpeg);
+    background-image: linear-gradient(180deg,rgba(118,84,154,0.7) 0%,rgba(224,43,32,0.16) 100%),url(../imgs/10.jpeg);
     display: flex;
     padding: 10%;
     background-size: 100% 100%;
 }
+#section-06 h2,span{
+    width: 50%;
+    text-shadow: 1px 1px 5px #000000;
+    color: white;
+ }
+ 
+ #section-06 h2{
+     font-size: 40px;
+     letter-spacing: 2px;
+     line-height: 1.5em;
+  }
+ 
+  #section-06 span{
+     line-height: 1.8em;
+     font-size: 18px;
+     margin-left: 9%;
+  }
 .divisoria-blue{
     background-image: url(../imgs/divisoria-blue.svg);
     background-size: 100% 100px;
@@ -244,20 +383,34 @@ body{
 
 /* SECTION 07 */
 #section-07{
-    background-image: url(../imgs/12.jpeg);
-    display: flex;
+    background-image: linear-gradient(194deg,#345168 0%,rgba(219,219,219,0) 0%,rgba(82,106,125,0.82) 100%),url(../imgs/12.jpeg);
     padding: 10%;
     background-size: 100% 100%;
+    
+}
+
+#section-07 h1{
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000000;
 }
 /* END SECTION 07 */
 
 
 footer{
     background-color: black;
-    border-top: 1px solid purple;
     color: white;
     text-align: center;
     padding: 1%;
+    cursor: pointer;
+}
+
+footer:hover{
+color: #c014d3;
 }
 
 
