@@ -10,3 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 -stages:
+- task: PublishHtmlReport@1
+  inputs:
+    reportDir: '/'
